@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "target": "es5",        // or any target version you need
+        "module": "es6",        // Use 'es6' for ES modules
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "include": ["src/**/*"]
+}
